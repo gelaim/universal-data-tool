@@ -36,12 +36,12 @@ export default () => {
   }
   if (!window.posthogInitialized) {
     posthog.init("dSrx1PbFd02XsxlLd7qNbeTxKZwwao2sclVmapyYlT4", {
-      api_host: "https://posthog.universaldatatool.com",
+      api_host: "https://posthog.anotacao.thesiscrafter.com",
       autocapture: false,
     })
     window.posthog = posthog
     const domain = isDesktop
-      ? "https://desktop.universaldatatool.com"
+      ? "https://desktop.anotacao.thesiscrafter.com"
       : window.location.origin
     posthog.capture("domain", { domain })
     posthog.capture("is_desktop", { isDesktop: isDesktop })

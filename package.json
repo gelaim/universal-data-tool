@@ -3,7 +3,7 @@
   "version": "0.14.11",
   "license": "MIT",
   "main": "desktop/main.js",
-  "homepage": "https://universaldatatool.com/app/",
+  "homepage": "https://anotacao.thesiscrafter.com/",
   "proxy": "http://localhost:3000",
   "scripts": {
     "start": "cross-env PORT=6001 react-scripts start",
